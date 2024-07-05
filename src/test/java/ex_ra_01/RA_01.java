@@ -1,4 +1,4 @@
-package com.thetestingacademy.ra01;
+package ex_ra_01;
 
 import io.restassured.RestAssured;
 
@@ -9,7 +9,7 @@ public class RA_01 {
                 given().
                 baseUri("https://restful-booker.herokuapp.com").
                 basePath("/ping").
-                given().when().then().statusCode(200);
+                when().get().then().statusCode(201);
 
 
     }

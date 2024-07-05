@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Harshesh/IdeaProjects/ATB6xRestAssuredLearning">
+        <classes>
+            <class name="com.thetestingacademy.ra01.TestNG.Tng_01">
+                <methods>
+                    <include name="getRequest1"/>
+                    <include name="getRequest2"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.ra01.TestNG.Tng_02">
+                <methods>
+                    <include name="get_Request1"/>
+                    <include name="get_Request2"/>
+                    <include name="get_Request3"/>
+                    <include name="get_Request4"/>
+                </methods>
+            </class>
+            <class name="deserialization.gson.Deserialization_demo">
+                <methods>
+                    <include name="testNonBDDStyleGETPositive"/>
+                </methods>
+            </class>
+            <class name="gson.serialization.Serialization_demo">
+                <methods>
+                    <include name="testNonBDDStylePOSTPositive"/>
+                </methods>
+            </class>
+            <class name="json_using_map.json_Map">
+                <methods>
+                    <include name="testPOSTReq"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/Harshesh/IdeaProjects/ATB6xRestAssuredLearning/src/test/java/testng.xml"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.006">
+    <properties></properties>
+
+
+
+            <testcase
+                name="get_Request4"
+                time="0.001"
+                classname="com.thetestingacademy.ra01.TestNG.Tng_02">
+            </testcase>
+            <testcase
+                name="get_Request1"
+                time="0.001"
+                classname="com.thetestingacademy.ra01.TestNG.Tng_02">
+            </testcase>
+            <testcase
+                name="get_Request2"
+                time="0.003"
+                classname="com.thetestingacademy.ra01.TestNG.Tng_02">
+            </testcase>
+            <testcase
+                name="get_Request3"
+                time="0.001"
+                classname="com.thetestingacademy.ra01.TestNG.Tng_02">
+            </testcase>
+</testsuite>
